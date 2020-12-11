@@ -49,10 +49,6 @@ $ symbol indicating bash
 ## CS61A
 ### getting started
 #### vscode
-useful keyboard shortcuts:
-
-after openning vscode,
-
 `command` + `shift` + `p` --- to open the command palette
 
 `command` + `s` -- to save the current file
@@ -60,8 +56,14 @@ after openning vscode,
 `shift` + `tab` -- to dedent 
 
 #### useful python command-line options
+```zsh
+python3 -i file.py
+```
 `-i` --make python to start in interactive mode. In an interactive mode, you can run Python code line by line and get immediate feedback instead of running an entire file all at once.
 
+```zsh
+python3 -m doctest file.py
+```
 `-m doctest` --to run doctests.
 
 to add a directory to path:
@@ -77,4 +79,34 @@ export PYTHONPATH="${PYTHONPATH}:<path to directory>"
 ```
 last, follow the instruction below to exit; save the file and restart the terminal.
 
+when using the `ok` autograder.
+```zsh
+python3 ok -q sum_digits -i
+```
+to open an interactive terminal to investigate a failing test for question sum_digits.
+
+```zsh
+python3 ok -q sum_digits --trace
+```
+to look at an enviroment diagram to investigate a failing test for question sum_digits.
+
+
 #### unix tutorial
+
+### functioins
+
+#### debugging
+debugging techniques:
+
+running doctests:
+
+```zsh
+python3 -m doctest file.py
+```
+`-v` option stands for *verbose*.In addition to telling you which doctests you failed, it can also tell you which doctests passed.
+```zsh
+python3 -m doctest file.py -v
+```
+
+
+
