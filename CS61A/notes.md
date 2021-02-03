@@ -1,11 +1,11 @@
 # CS61A
 ## 目录
-1. [getting started](https://github.com/connie-yin/Online-Courses-Notes/blob/main/CS61A/notes.md#getting-started)   
-   1. [vscode](https://github.com/connie-yin/Online-Courses-Notes/blob/main/CS61A/notes.md#vscode)   
-   2. [unix commands](https://github.com/connie-yin/Online-Courses-Notes/blob/main/CS61A/notes.md#unix-commands)
-   3. [useful python command-line options](https://github.com/connie-yin/Online-Courses-Notes/blob/main/CS61A/notes.md#useful-python-command-line-options)
+1. [getting started](#getting-started)   
+   1. [vscode](#vscode)   
+   2. [unix commands](#unix-commands)
+   3. [useful python command-line options](#useful-python-command-line-options)
 2. [functions](#functions)   
-   1. [debugging](https://github.com/connie-yin/Online-Courses-Notes/blob/main/CS61A/notes.md#debugging)
+   1. [debugging](#debugging)
 ## getting started
 ### vscode
 open the command palette: `command` + `shift` + `p`   
