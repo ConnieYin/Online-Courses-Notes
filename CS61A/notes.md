@@ -1,4 +1,12 @@
 # CS61A
+## 目录
+1. [getting started](#
+   1. vscode
+   2. unix commands
+   3. useful python command-line options
+2. functions
+   1. debugging
+
 ## getting started
 ### vscode
 open the command palette: `command` + `shift` + `p`   
