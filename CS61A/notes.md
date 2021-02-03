@@ -1,9 +1,9 @@
 # CS61A
 ## getting started
 ### vscode
-open the command palette: `command` + `shift` + `p` 
-save the current file: `command` + `s` 
-dedent: `shift` + `tab` 
+open the command palette: `command` + `shift` + `p`   
+save the current file: `command` + `s`   
+dedent: `shift` + `tab`   
  
 ### unix commands
 terminal: $(git-bash) or ps(powershell) VS command prompt or git-cmd
