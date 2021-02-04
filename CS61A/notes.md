@@ -105,8 +105,8 @@ means of abstraction: binds names to expressions.
 a function consists of it's signature and body.  
 execution procedure:  
    1. create a function with signature {<name>(<formal parameters>)}
-   2. Set the body of that function to be everything indented after the first line.
-   3. Bind <name> to that function in the current frame.
+   2. set the body of that function to be everything indented after the first line
+   3. **bind** 
 
 ### debugging
 debugging techniques:
