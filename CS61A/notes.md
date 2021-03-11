@@ -138,7 +138,7 @@ y, x = x, y
 ```
 Assignment is the simplest means of abstraction.   
 
-**conditional statements**
+**conditional statements**  
 syntax tips:  
 1. alwanys starts with "if" clause
 2. then zero or more "elif" clauses
@@ -159,14 +159,14 @@ only one **kind** of clause may be executed.
 19
 ```     
 
-**conditional expressions**:
+**conditional expressions**  
 ```
 >>> x = 0
 >>> abs(1/x if x!=0 else 0)
 0
 ```
 
-**boolean context**
+**boolean context**  
 - false values: `False`, `0`, `''`, `[]`, `None`
 - true values: anything else
 
@@ -261,7 +261,7 @@ Understanding functional abstractions via their *domain, range, and intent* is c
 
 Imposing restrictions of pure functions yields substantial benefits.
 
-**return & print**
+**return & print**  
 - the value that print returns is always None
 - the interactive Python interpreter does not automatically print the value None
 - no return no value, no print no output
@@ -316,7 +316,7 @@ guiding principles of debugging
 3. check your assumptions
 4. consult others
 
-**error types**
+**error types**  
 `SyntaxError`, `IndentationError`(a tab could be a different number of columns depending on the environment, but a space is always one column. to be consistent, use spaces over tabs!), `TypeError`, `NameError`, `IndexError`.  
 
 `EOL` stands for "end of line".
