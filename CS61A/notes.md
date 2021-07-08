@@ -568,13 +568,8 @@ differences between `int` and `float` objects: all `int` objects represent integ
 >>> 1 / 3 == 0.333333333333333312345
 True
 ```
-
 	
-	
-	
-	
-	
-#### lists
+### lists
 ```zsh
 >>> digits = [1, 8, 2, 8]
 >>> 
@@ -589,11 +584,7 @@ True
 30
 ```
 
-   
-   
-   
-   
-## summary(attention！) 
+# summary(attention！) 
 - think procedurally!
 - in a program, what most of code's doing are just manipulating names and calling functions. 
 - programs must be written for people to read, and only incidentally for machines to execute.
@@ -602,8 +593,6 @@ True
          
    
    
-
-
 
 
 
